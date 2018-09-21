@@ -10,5 +10,6 @@ def permute_string(str):
 				next_list.append(new_str)
 	return next_list
 
-for i in permute_string('ABCD'):
+for i in permute_string('ABC'):
 	print(i)
+print(len(permute_string('ABC')))
