@@ -6,4 +6,4 @@ else:
 	t=str_arr[0]
 	str_arr[0]=str_arr[1]
 	str_arr[1]=t
-print(", ".join(str_arr))
+	print(", ".join(str_arr))
